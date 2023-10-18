@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
   <title>Formulário 02</title>
 </head>
+
 <body>
-  
+  <header>
+    <h1>AVALIE A SUA MENTORIA</h1>
+    <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+    <img src="./assets/main-img.svg" alt="">
+  </header>
+
+  <div class="container">
+    <form action="">
+      <fieldset>
+        <legend class="info-title">INFORMAÇÕES PESSOAIS</legend>
+
+        <div class="contain">
+          <div class="col-2">
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input type="text" id="name">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="lastname">Sobrenome</label>
+              <input type="text" id="lastname">
+            </div>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="email">Email <span class="text-opac">(digite um email válido)</span></label>
+            <input type="text" id="email">
+          </div>
+
+        </div>
+      </fieldset>
+    </form>
+  </div>
 </body>
+
 </html>
