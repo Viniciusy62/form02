@@ -93,7 +93,7 @@ fieldset {
   margin: 1rem 0;
 }
 
-.input-wrapper label, .input-wrapper input,textarea {
+.input-wrapper label, .input-wrapper input,textarea, select {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.4rem;
@@ -101,7 +101,7 @@ fieldset {
   font-family: var(--font-secondary);
 }
 
-.input-wrapper input,textarea {
+.input-wrapper input,textarea, select{
   padding: 2rem;
   width: 100%;
 
@@ -111,6 +111,22 @@ fieldset {
 
 .input-wrapper input {
   height: 5.6rem;
+}
+
+.select-box {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+select {
+  max-width: 30rem;
+  height: 5.6rem;
+}
+
+.ocult-option {
+  display: none;
 }
 
 textarea {
